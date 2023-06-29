@@ -8,10 +8,13 @@ Close the game by exiting from the window.
 
 ## Running Spoink
 As a prerequisite, install minGW-w64 on your computer. You can use [Homebrew](https://brew.sh/) to install this software development environment in your terminal by entering:
+
 ```brew install mingw-w64```
 
 Then, enter the following in your terminal to compile the code.
+
 ```mingw32-make -f MakeFile```
 
 Once the code is compiled, run the created executable in the terminal.
+
 ```"\.Spoink.exe"```
