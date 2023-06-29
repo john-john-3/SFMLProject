@@ -1,0 +1,13 @@
+all: compile link
+
+compile:
+	g++ -Isrc/include -c coding/*.cpp
+
+link:
+	g++ *.o -o Spoink -Lsrc/lib -lsfml-graphics -lsfml-window -lsfml-system -lopengl32 -lsfml-audio
+
+
+# open command prompt from the terminal
+# run "mingw32-make -f MakeFile" only once if it is the first time making or if there are any changes in the file main.cpp
+# run main.exe in the command prompt
+
